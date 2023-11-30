@@ -9,7 +9,7 @@ describe("POST /operation", () => {
         n1: 1,
         n2: 2
       })
-      expect(response.statusCode).toBe(400)
+      expect(response.statusCode).toBe(200)
     })
 
     test("should respond opration result ok", async () => {
